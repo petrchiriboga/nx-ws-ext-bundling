@@ -1,12 +1,12 @@
 import { Controller, Get } from '@nestjs/common';
-import { AppService } from './app.service';
+import { CommercetoolsService } from './commercetools.service';
 
 @Controller()
 export class AppController {
-  constructor(private readonly appService: AppService) {}
+  constructor(private readonly commercetoolsService: CommercetoolsService) {}
 
   @Get()
-  getData() {
-    return this.appService.getData();
+  async getData() {
+    return await this.commercetoolsService.getCustomers();
   }
 }

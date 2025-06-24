@@ -1,0 +1,6 @@
+COMMERCETOOLS_PROJECT_KEY=petcircle-dev
+COMMERCETOOLS_AUTH_HOST=https://api.australia-southeast1.gcp.commercetools.com
+COMMERCETOOLS_CLIENT_ID=
+COMMERCETOOLS_CLIENT_SECRET=
+COMMERCETOOLS_SCOPES=manage_customers:petcircle-dev
+COMMERCETOOLS_API_HOST=https://api.australia-southeast1.gcp.commercetools.com

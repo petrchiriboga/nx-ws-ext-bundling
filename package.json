@@ -5,7 +5,11 @@
   "scripts": {},
   "private": true,
   "dependencies": {
+    "@commercetools/importapi-sdk": "^6.3.0",
+    "@commercetools/platform-sdk": "^8.11.0",
+    "@commercetools/sdk-client-v2": "^3.0.0",
     "@nestjs/common": "^11.0.0",
+    "@nestjs/config": "^4.0.2",
     "@nestjs/core": "^11.0.0",
     "@nestjs/platform-express": "^11.0.0",
     "axios": "^1.6.0",
